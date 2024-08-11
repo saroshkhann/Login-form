@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(light-laptop-notebook-lighting-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  gap: 8rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+.nav-btn {
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  padding: 0.8rem 2.5rem;
+  transition: all 0.3s;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+
+.nav-btn:is(:hover, :focus) {
+  outline: none;
+  background-color: #8888886b;
+}
+
+.container {
+  background-color: #fff;
+  height: 41rem;
+  width: 35rem;
+  margin: 4.2rem auto;
+  border-radius: 2rem;
+  position: relative;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.icon {
+  position: absolute;
+  right: 3%;
+  top: 1.5%;
+  color: black;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.heading {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  color: #924dbf;
+}
+
+.login__input {
+  border: none;
+  border-bottom: 1px solid #924dbf;
+  width: 100%;
+  margin-bottom: 3rem;
+  padding: 1rem 0;
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.login__btn {
+  border: none;
+  background: none;
+  width: 60%;
+  background-color: #924dbf;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.login__para {
+  font-size: 1rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #924dbf;
+}
+
+.hidden {
+  display: none;
+}
+
+.afterlogin__heading {
+  position: absolute;
+  top: 20%;
+  left: 32%;
+  font-size: 3rem;
+  color: #fff;
+}
